@@ -91,16 +91,6 @@ li img {
   border-radius: 10px;
 }
 
-.toggle:hover {
-  background: linear-gradient(270deg, #2f9d00, #a2ff00);
-  .bars {
-    background: #181717;
-  }
-  .bars::before,.bars::after {
-    background: #181717;
-  }
-}
-
 .item {
   width: 100%;
   text-align: center;
@@ -143,10 +133,6 @@ li img {
 
 .bars::after {
   top: -5px;
-}
-
-.nav .menu-toggle:checked ~ .menu {
-  max-height: 240px;
 }
 
 /* Tablet Nav Menu */
