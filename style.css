@@ -247,6 +247,11 @@ li img {
   margin-bottom: 1rem;
 }
 
+.titlecard {
+  background-color: black;
+  opacity: 0.9;
+}
+
 .content {
   margin: 2rem;
 }
