@@ -250,6 +250,8 @@ li img {
 .titlecard {
   background-color: black;
   border: 4px white solid;
+  padding-right: 0.5rem;
+  padding-left: 0.5r;
   opacity: 0.8;
 }
 
