@@ -254,7 +254,7 @@ li img {
 }
 
 .titletext {
-  opacity: 1;
+  opacity: 1 !important;
 }
 
 .content {
