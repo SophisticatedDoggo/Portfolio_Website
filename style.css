@@ -113,6 +113,13 @@ li img {
   padding-top: 15px;
 }
 
+.x-symbol {
+  color: #999;
+  height: 0.15rem;
+  width: 18px;
+  position: relative;
+}
+
 .bars {
   background: #999;
   display: inline-block;
