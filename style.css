@@ -563,7 +563,7 @@ li img {
   height: 15px;
 }
 
-@media screen and (min-height: 652px) {
+@media screen and (max-height: 652px) {
   .contact-container {
      height: 110svh;
   }
