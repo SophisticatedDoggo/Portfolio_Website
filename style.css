@@ -249,7 +249,12 @@ li img {
 
 .titlecard {
   background-color: black;
+  border: 4px white solid;
   opacity: 0.8;
+}
+
+.titletext {
+  opacity: 1;
 }
 
 .content {
