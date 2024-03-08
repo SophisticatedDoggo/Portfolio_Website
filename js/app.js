@@ -1,22 +1,41 @@
 function onToggleClick() {
-    var navElemments = document.getElementsByClassName('item');
+    var navElements = document.querySelectorAll('.bars, .x-symbol');
+    var itemElements = document.querySelectorAll('.item'); // Select all elements with class 'item'
+    var togglespan = document.getElementById('togglespan'); // Get the togglespan element once
 
-    
-    for (let index = 0; index < navElemments.length; index++) {
+    // Toggle between 'x-symbol' and 'bars' for nav elements
+    for (let index = 0; index < navElements.length; index++) {
+        var element = navElements[index];
 
-        if(navElemments[index].classList.contains('active')) {
-            navElemments[index].classList.remove('active');
+        if (element.classList.contains('x-symbol')) {
+            element.classList.remove('x-symbol');
+            element.classList.add('bars');
         } else {
-            navElemments[index].classList.add('active');
+            element.classList.remove('bars');
+            element.classList.add('x-symbol');
         }
-        
-        console.log("Changed item to active.")
     }
+
+    // Toggle 'active' class for item elements
+    for (let index = 0; index < itemElements.length; index++) {
+        var item = itemElements[index];
+        item.classList.toggle('active'); // This toggles 'active' on or off
+    }
+
+    // Update the text content of 'togglespan'
+    if (navElements.length > 0 && navElements[0].classList.contains('x-symbol')) {
+        togglespan.textContent = 'X'; // Set text to 'X' if any nav element has 'x-symbol'
+    } else {
+        togglespan.textContent = ''; // Clear the text if no nav elements have 'x-symbol'
+    }
+
+    console.log("Toggled the class of the items.");
 }
 
+// Adding event listeners to all elements with class 'toggle'
 const toggleIcon = document.querySelectorAll('.toggle');
 for (let index = 0; index < toggleIcon.length; index++) {
-   toggleIcon[index].addEventListener('click', onToggleClick);
+    toggleIcon[index].addEventListener('click', onToggleClick);
 }
 
 
