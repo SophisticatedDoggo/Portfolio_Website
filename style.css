@@ -484,7 +484,7 @@ li img {
 
 .contact-container {
   margin: 4rem;
-  height: 105svh;
+  height: 60svh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -561,6 +561,12 @@ li img {
 
 .contact-left button img {
   height: 15px;
+}
+
+@media screen and (min-height: 652px) {
+  .contact-container {
+     height: 110svh;
+  }
 }
 
 /* Footer */
