@@ -288,12 +288,13 @@ li img {
   justify-content: space-evenly;
   align-items: start;
   margin: 1rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 .edu-item {
   display: flex;
   flex-direction: column;
-  margin-top: 3rem;
   align-items: center;
 }
 
@@ -313,7 +314,6 @@ li img {
 .exp-item {
   display: flex;
   flex-direction: column;
-  margin-top: 3rem;
   align-items: center;
 }
 
