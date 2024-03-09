@@ -40,7 +40,7 @@ a {
 }
 
 a:hover {
-  color: #00c9ff;
+  color: #181717;
   background-color: white;
 }
 
@@ -90,6 +90,7 @@ li img {
   padding: 1em;
   border: 1px rgb(73, 73, 73) solid;
   border-radius: 10px;
+  background-color: #181717;
 }
 
 .item {
