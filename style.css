@@ -5,7 +5,7 @@
   color: white;
   --primary-nav-foot: #181717;
   --primary-background: #181717;
-  --secondary-color: #a2ff00;
+  --secondary-color: #00c9ff;
   overflow-x: hidden;
 }
 
@@ -40,7 +40,7 @@ a {
 
 a:hover {
   color: #181717;
-  background-color: #a2ff00;
+  background-color: #00c9ff;
 }
 
 .logo {
@@ -533,7 +533,7 @@ li img {
 
 .contact-left-title h2 {
   font-weight: 600;
-  color: #a2ff00;
+  color: #00c9ff;
   font-size: 2.5rem;
   margin-bottom: 0.5rem;
 }
@@ -541,7 +541,7 @@ li img {
   border: none;
   width: 10rem;
   height: 0.25rem;
-  background-color: #a2ff00;
+  background-color: #00c9ff;
   border-radius: 10px;
   margin-bottom: 0.25rem;
 }
@@ -581,7 +581,7 @@ li img {
   gap: 10px;
   border: none;
   border-radius: 50px;
-  background: linear-gradient(270deg, #2f9d00, #a2ff00);
+  background: linear-gradient(270deg, #1d0cb9, #00c9ff);
   cursor: pointer;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
@@ -620,5 +620,5 @@ a.footlink {
 
 a.footlink:hover {
   color: white;
-  background-color: #a2ff00;
+  background-color: #00c9ff;
 }
