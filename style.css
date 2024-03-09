@@ -576,7 +576,7 @@ li img {
 }
 
 .contact-inputs:focus {
-  border: 4px #2f9d00 solid ;
+  border: 4px #00c9ff solid ;
 }
 
 .contact-inputs::placeholder {
