@@ -24,7 +24,7 @@ function onToggleClick() {
 
     // Update the text content of 'togglespan'
     if (navElements.length > 0 && navElements[0].classList.contains('x-symbol')) {
-        togglespan.textContent = 'x'; // Set text to 'x' if any nav element has 'x-symbol'
+        togglespan.textContent = 'X'; // Set text to 'X' if any nav element has 'x-symbol'
     } else {
         togglespan.textContent = ''; // Clear the text if no nav elements have 'x-symbol'
     }
