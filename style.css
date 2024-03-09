@@ -310,6 +310,12 @@ li img {
   color: var(--primary-background);
 }
 
+@media screen and (max-width: 650px) {
+  body {
+    font-size: 18px;
+  }
+}
+
 @media screen and (min-width: 650px) {
   .picture {
     font-size: 5rem;
