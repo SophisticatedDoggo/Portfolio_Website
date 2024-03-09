@@ -228,12 +228,12 @@ li img {
 
 .main-pic {
   width: 80vw;
-  height: 15.94svh;
+  height: auto;
 }
 
 .main-pic2 {
-  width: 70%;
-  height: 100%;
+  width: 60vw;
+  height: 15.94svh;
 }
 
 .picture {
