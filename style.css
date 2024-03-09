@@ -241,6 +241,10 @@ li img {
   height: auto;
 }
 
+h3 {
+  color: #00c9ff;
+}
+
 .picture {
   display: flex;
   background-repeat: no-repeat;
