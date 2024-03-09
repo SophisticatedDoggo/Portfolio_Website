@@ -293,6 +293,13 @@ li img {
   padding-right: 1rem;
 }
 
+.edu-item-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 16vh;
+}
+
 .exp-item {
   display: flex;
   flex-direction: column;
