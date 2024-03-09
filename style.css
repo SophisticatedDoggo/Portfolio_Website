@@ -231,6 +231,11 @@ li img {
   height: auto;
 }
 
+.main-pic2 {
+  width: 100%;
+  height: 100%;
+}
+
 .picture {
   display: flex;
   background-repeat: no-repeat;
