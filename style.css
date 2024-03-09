@@ -21,7 +21,7 @@ body {
 }
 
 nav {
-  background: var(--primary-nav-foot);
+  background-color: #00c9ff;
   padding: 5px 20px;
   position: fixed;
   width: 100%;
@@ -36,11 +36,12 @@ ul {
 a {
   color: white;
   text-decoration: none;
+  background-color: #181717;
 }
 
 a:hover {
-  color: #181717;
-  background-color: #00c9ff;
+  color: #00c9ff;
+  background-color: white;
 }
 
 .logo {
@@ -164,7 +165,7 @@ li img {
   }
 
   .menu {
-    padding: 15px 10px;
+    padding: 0 10px;
   }
 
   .item.last {
@@ -599,7 +600,7 @@ li img {
 /* Footer */
 
 footer {
-  background: var(--primary-nav-foot);
+  background-color: #00c9ff;
   width: 100%;
   border-top: 1px #494949 solid;
 }
@@ -614,11 +615,17 @@ footer {
 }
 
 a.footlink {
-  background-color: white;
+  background-color: #00c9ff;
   height: 64px;
 }
 
 a.footlink:hover {
   color: white;
-  background-color: #00c9ff;
+  background-color: white;
+}
+
+@media screen and (max-width: 650px) {
+  .footer-container {
+    gap: 3rem;
+  }
 }
