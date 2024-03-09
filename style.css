@@ -245,6 +245,10 @@ h3 {
   color: #00c9ff;
 }
 
+.textcenter {
+  text-align: center;
+}
+
 .picture {
   display: flex;
   background-repeat: no-repeat;
