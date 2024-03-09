@@ -479,12 +479,14 @@ li img {
   .edu-item {
     margin: 2rem;
     padding-top: 3rem;
+    padding-bottom: 3rem;
   }
 
   .exp-item {
     margin: 2rem;
     padding-left: 0;
     padding-top: 3rem;
+    padding-bottom: 3rem;
   }
 
   .exp-item > p {
