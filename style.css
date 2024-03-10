@@ -347,6 +347,10 @@ h3 {
   margin: 1rem;
 }
 
+.exp-item-border {
+  border-bottom: 1px #444 solid;
+}
+
 .exp-item > p {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -510,6 +514,10 @@ h3 {
     flex-direction: row;
     margin-left: 20rem;
     margin-right: 20rem;
+  }
+
+  .exp-item-border {
+    border-right: 1px #444 solid;
   }
 
   .main-pic {
