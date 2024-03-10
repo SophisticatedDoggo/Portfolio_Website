@@ -243,7 +243,7 @@ li img {
 }
 
 .profile-pic {
-  width: 15vw;
+  width: 60vw;
   height: auto;
 }
 
@@ -412,6 +412,10 @@ h3 {
     padding-right: 8rem;
   }
 
+  .profile-pic {
+    width: 30vw;
+  }
+
   .main-pic {
     width: 40vw;
   }
@@ -443,6 +447,10 @@ h3 {
     flex-direction: column;
     margin-left: 5rem;
     margin-right: 5rem;
+  }
+
+  .profile-pic {
+    width: 20vw;
   }
 
   .main-pic {
@@ -485,6 +493,10 @@ h3 {
     flex-direction: column;
     margin-left: 10rem;
     margin-right: 10rem;
+  }
+
+  .profile-pic {
+    width: 15vw;
   }
 
   .main-pic {
