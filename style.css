@@ -42,7 +42,6 @@ a {
 a:hover {
   color: #181717;
   background-color: white;
-  border: 4px white solid;
 }
 
 .logo {
@@ -67,14 +66,15 @@ li img {
 .menu li a {
   display: block;
   padding: 1em;
-  border: 4px #444 solid;
+  border: 2px #444 solid;
   border-radius: 40px;
   margin: 4px;
 }
 
 .menu li a:hover {
-  border: 6px #1d0cb9 solid;
-  background-color: #444;
+  border: 4px white solid;
+  color: white;
+  background: linear-gradient(270deg, #00c9ff, #1d0cb9);
 }
 
 .last {
