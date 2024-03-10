@@ -319,6 +319,8 @@ h3 {
   align-items: center;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .edu-item1 {
@@ -328,8 +330,6 @@ h3 {
 .edu-item > p {
   padding-top: 0.5rem;
   padding-bottom: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
 }
 
 .item-top {
@@ -371,6 +371,11 @@ h3 {
   
   .education {
     flex-direction: row;
+  }
+
+  .edu-item {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .edu-item1 {
