@@ -67,13 +67,14 @@ li img {
 .menu li a {
   display: block;
   padding: 1em;
-  border: 2px rgb(73, 73, 73) solid;
+  border: 4px #444 solid;
   border-radius: 40px;
   margin: 4px;
 }
 
 .menu li a:hover {
-  border-color: #1d0cb9;
+  border: 6px #1d0cb9 solid;
+  background-color: #444;
 }
 
 .last {
