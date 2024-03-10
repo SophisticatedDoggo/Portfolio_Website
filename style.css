@@ -72,9 +72,9 @@ li img {
 }
 
 .menu li a:hover {
-  border: 4px white solid;
+  border: 2px white solid;
   color: white;
-  background: linear-gradient(270deg, #00c9ff, #1d0cb9);
+  background-color: #1d0cb9;
 }
 
 .last {
