@@ -317,7 +317,12 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.edu-item1 {
+  border-bottom: 1px #444 solid;
 }
 
 .edu-item > p {
@@ -366,6 +371,11 @@ h3 {
   
   .education {
     flex-direction: row;
+  }
+
+  .edu-item1 {
+    border-bottom: none;
+    border-right: 1px #444 solid;
   }
 
   .experience {
@@ -418,7 +428,8 @@ h3 {
   }
 
   .edu-item {
-    margin: 2rem;
+    margin-top: 2rem;
+  margin-bottom: 2rem;
   }
 
   .exp-item {
@@ -460,10 +471,6 @@ h3 {
 
   .main-pic {
     width: 25vw;
-  }
-
-  .edu-item {
-    margin: 2rem;
   }
 
   .exp-item {
@@ -508,7 +515,6 @@ h3 {
   }
 
   .edu-item {
-    margin: 2rem;
     padding-top: 3rem;
     padding-bottom: 3rem;
   }
