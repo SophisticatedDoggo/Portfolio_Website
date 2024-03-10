@@ -378,6 +378,12 @@ h3 {
   }
 }
 
+@media screen and (min-width: 490px) {
+  .profile-pic {
+    width: 45vw;
+  }
+}
+
 @media screen and (min-width: 650px) {
   .picture {
     font-size: 5rem;
