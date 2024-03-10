@@ -242,6 +242,11 @@ li img {
   background-color: #2f2f2f;
 }
 
+.profile-pic {
+  width: 15vw;
+  height: auto;
+}
+
 .main-pic {
   width: 80vw;
   height: auto;
