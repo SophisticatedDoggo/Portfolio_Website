@@ -346,6 +346,8 @@ h3 {
   align-items: center;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .exp-item-border {
