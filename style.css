@@ -95,9 +95,13 @@ li img {
   order: 1;
   cursor: pointer;
   padding: 1em;
-  border: 1px rgb(73, 73, 73) solid;
+  border: 2px #444 solid;
   border-radius: 10px;
   background-color: #181717;
+}
+
+.toggle:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 .item {
