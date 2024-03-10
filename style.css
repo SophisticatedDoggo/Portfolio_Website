@@ -40,7 +40,8 @@ a {
 }
 
 a:hover {
-  color: #1d0cb9;
+  color: #181717;
+  background-color: white;
   border: 4px white solid;
 }
 
@@ -69,6 +70,10 @@ li img {
   border: 2px rgb(73, 73, 73) solid;
   border-radius: 40px;
   margin: 4px;
+}
+
+.menu li a:hover {
+  border-color: #1d0cb9;
 }
 
 .last {
