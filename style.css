@@ -40,8 +40,8 @@ a {
 }
 
 a:hover {
-  color: #181717;
-  background-color: white;
+  color: #1d0cb9;
+  border: 4px white solid;
 }
 
 .logo {
@@ -66,7 +66,7 @@ li img {
 .menu li a {
   display: block;
   padding: 1em;
-  border: 1px rgb(73, 73, 73) solid;
+  border: 2px rgb(73, 73, 73) solid;
   border-radius: 40px;
   margin: 4px;
 }
