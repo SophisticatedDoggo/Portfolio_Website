@@ -590,7 +590,8 @@ h3 {
 /* Contact Form */
 
 .contact-container {
-  margin: 4rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
   height: 60svh;
   display: flex;
   align-items: center;
@@ -682,8 +683,9 @@ h3 {
 footer {
   background-color: #00c9ff;
   width: 100%;
+  height: 5rem;
   border-top: 1px #494949 solid;
-  padding-top: 0.8rem;
+  margin-top: 0.8rem;
 }
 
 .footer-container {
@@ -692,7 +694,8 @@ footer {
   justify-content: center;
   align-items: center;
   gap: 3rem;
-  height: 4.5rem;
+  color: #181717;
+  padding: 0.5rem;
 }
 
 a.footlink {
@@ -705,8 +708,9 @@ a.footlink:hover {
   background-color: white;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 600px) {
   .footer-container {
-    gap: 3rem;
+    gap: 1.5rem;
+    font-size: 0.9rem;
   }
 }
