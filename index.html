@@ -26,14 +26,24 @@
         <!-- NavBar -->
 
     <nav>
-        <ul class="menu">
-            <li class="logo"><img src="images/NoahLogo.png" alt="Navbar log" class="logo logo-img"></li>
-            <li class="item"><a href="#About">About</a></li>
-            <li class="item"><a href="#Education">Education</a></li>
-            <li class="item"><a href="#Experience">Experience</a></li>
-            <li class="item last"><a href="#Contact">Contact</a></li>
-            <li class="toggle"><span id="togglespan" class="bars"></span></li>
-        </ul>
+        <div class="nav-inner">
+            <a href="#About" class="nav-logo">
+                <img src="images/NoahLogo.png" alt="Noah Lawrence" class="logo-img">
+            </a>
+            <button class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#About">About</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#Education">Education</a></li>
+                <li><a href="#Experience">Experience</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </div>
     </nav>
 
         <!-- Main Page -->
@@ -43,23 +53,48 @@
         <!-- About Section -->
         
         <section id="About" class="picture tech">
-            <div class="titlecard hidden1"><div>About</div></div>
+            <div class="hero-content">
+                <div class="titlecard hidden1"><div>About</div></div>
+                <p class="hero-subtitle hidden1">Full-Stack Developer &amp; CIS Graduate</p>
+            </div>
         </section>
         <section class="content">
             <img class = "hidden2 profile-pic" src="images/profile.jpg" alt="Noah Profile Picture">
             <p class="hidden2">
-                Greetings and welcome to my portfolio! I'm Noah Lawrence, a Computer Information Systems student 
-            with a keen interest in technology and its applications in business and society. I'm passionate about 
-            exploring the dynamic landscape of information systems and discovering how they can drive innovation and efficiency in organizations.
+                Welcome to my portfolio. I'm Noah Lawrence, a Computer Information Systems student with hands-on 
+                experience building web applications and full-stack projects using JavaScript, Python, HTML, CSS, 
+                and SQL. I enjoy creating practical, user-focused solutions and continuously building my skills as a developer.
             </p>
             <p class="hidden2">
-                As a student, I've delved into a diverse array of courses and projects, delving into areas like database management, software development, 
-            network administration, and cybersecurity. I thrive on the intellectual challenge of problem-solving and leveraging technology to streamline processes and improve outcomes.
+                Through my coursework, projects, and technical background, I have developed experience in software development, 
+                database design, debugging, and problem-solving. My time working in enterprise IT has also strengthened my 
+                ability to troubleshoot issues, think systematically, and adapt quickly to new technologies and workflows.
             </p>
             <p class="hidden2">
-                Thank you for taking the time to explore my website. I'm excited about the opportunity to connect with fellow enthusiasts, industry professionals, and potential collaborators. 
-                If you'd like to learn more about me or discuss potential opportunities, please feel free to Contact me!
+                This website highlights my background, skills, and projects as I work toward beginning my career in software development. 
+                Thank you for visiting, and please feel free to reach out if you'd like to connect or discuss potential opportunities.
             </p>
+        </section>
+
+        <!-- Skills Section -->
+
+        <section id="Skills" class="skills-section">
+            <h2 class="skills-heading hidden1">Skills &amp; Technologies</h2>
+            <div class="skills-grid hidden2">
+                <span class="skill-badge">HTML5</span>
+                <span class="skill-badge">CSS3</span>
+                <span class="skill-badge">JavaScript</span>
+                <span class="skill-badge">Java</span>
+                <span class="skill-badge">SQL</span>
+                <span class="skill-badge">Python</span>
+                <span class="skill-badge">Git</span>
+                <span class="skill-badge">GitHub</span>
+                <span class="skill-badge">Relational Database Design</span>
+                <span class="skill-badge">Debugging</span>
+                <span class="skill-badge">Database Management</span>
+                <span class="skill-badge">IT Support</span>
+                <span class="skill-badge">Technical Troubleshooting</span>
+            </div>
         </section>
 
         <!-- Education Section -->
@@ -75,20 +110,20 @@
                 <p>Bachelor of Science (B.S.)</p>
                 <h3>Major</h3>
                 <p>Computer Information Systems</p>
-                <h3>Expected Graduation Date</h3>
+                <h3>Graduation Date</h3>
                 <p>May 2026</p>
                 <p class="none">.</p>
                 <p>
-                    As a dedicated student at Pennsylvania Western University, I am diligently pursuing my Bachelor's degree in Computer Information Systems (CIS), with an anticipated graduation date in May 2026. Through rigorous coursework and practical experiences, I am equipping myself with the knowledge and skills necessary to excel in a dynamic and ever-evolving field.
+                    I recently completed my Bachelor of Science in Computer Information Systems at Pennsylvania Western University. Through my coursework and hands-on projects, I developed a strong foundation in technology, business systems, and software development.
                 </p>
                 <p>
-                    During my tenure at Pennsylvania Western University, I have immersed myself in a comprehensive curriculum tailored to the demands of the modern technology landscape. I have honed my abilities in database creation and maintenance, as well as the development of advanced applications, laying a solid foundation for my future career endeavors.
+                    My studies helped me build practical skills in database design, application development, and problem-solving. These experiences strengthened my ability to understand technical systems and apply that knowledge in real-world situations.
                 </p>
                 <p>
-                    Moreover, my academic journey has afforded me valuable insights into business principles and management practices, complementing my technical expertise with a well-rounded understanding of organizational dynamics and strategic decision-making.
+                    In addition to technical coursework, my academic experience gave me a broader understanding of business concepts and organizational processes. This combination of technical and business knowledge has helped me see how technology can support efficiency, decision-making, and long-term growth.
                 </p>
                 <p>
-                    As I approach the culmination of my academic journey, I am eager to leverage the knowledge and experiences gained at Pennsylvania Western University to embark on a fulfilling career path within the realm of Computer Information Systems.
+                    Now that I have completed my degree, I am focused on applying what I have learned toward a career in software development and information systems, where I can contribute, continue learning, and grow professionally.
                 </p>
             </div>
             <div class="edu-item hidden2">
@@ -102,13 +137,16 @@
                 <p>August 2023</p>
                 <p class="none">.</p>
                 <p>
-                    During my tenure at Westmoreland County Community College, I pursued an academic focus in Computer Science, laying the groundwork for a robust understanding of fundamental principles within the field. Engaging with rigorous coursework, I delved into diverse mathematical concepts, including Calculus and Discrete Mathematics, expanding my analytical capabilities and problem-solving skills.
+                    At Westmoreland County Community College, I earned an Associate of Science in Computer Science and built a strong foundation in programming, mathematics, and analytical thinking. My coursework introduced me to core computer science concepts and helped strengthen my overall problem-solving approach.
                 </p>
                 <p>
-                    A significant component of my educational journey involved immersive projects centered around Java programming, where I gained hands-on experience in application development. These projects not only enhanced my proficiency in programming but also sharpened my ability to conceptualize and execute complex solutions effectively.
+                    Through classes and hands-on projects, I gained practical experience with Java and application development. These projects gave me the opportunity to apply programming concepts in structured ways while improving my ability to design, build, and troubleshoot software solutions.
                 </p>
                 <p>
-                    I am proud to have graduated with Honors, achieving a commendable GPA of 3.52, reflecting my commitment to academic excellence and dedication to mastering the intricacies of Computer Science.
+                    My studies also included challenging coursework in areas such as Calculus and Discrete Mathematics, which helped sharpen my logical reasoning and technical thinking. That academic foundation continues to support the way I approach development and problem-solving today.
+                </p>
+                <p>
+                    I graduated with Honors and earned a 3.52 GPA, an achievement that reflects my commitment to growth, consistency, and academic success. My time at Westmoreland played an important role in preparing me to continue my education and pursue a career in technology.
                 </p>
             </div>
         </section>
@@ -121,45 +159,101 @@
         <section class="experience">
             <div class="exp-item exp-item-border hidden2">
                 <div class="item-top"><img class="main-pic2" src="images/R1.png" alt="mpasd logo"></div>
-                <p class="none">.</p>
                 <h3>Company</h3>
                 <p class="textcenter">R1 RCM Inc.</p>
                 <h3>Role</h3>
-                <p class="textcenter">IT Support Technician</p>
+                <p class="textcenter">US Enterprise IT Tech I</p>
                 <h3>Tenure</h3>
-                <p>April 2024 - March 2025</p>
-                <p class="none">.</p>
+                <p class="textcenter">April 2024 - March 2025</p>
                 <p>
-                    As an IT Support Specialist, I provided technical support and troubleshooting to maintain the stability of enterprise IT systems. I played a key role in integrating new technologies, managing user accounts, and ensuring smooth transitions during infrastructure upgrades. Additionally, I tracked and documented support requests to improve service efficiency and customer satisfaction.
+                    As a US Enterprise IT Technician, I diagnosed and resolved software, hardware, and application issues for enterprise users in a remote support environment. This role strengthened my troubleshooting, root-cause analysis, and documentation skills while giving me experience supporting system stability during infrastructure updates and organizational changes. Working within a structured enterprise setting also reinforced my ability to solve technical problems efficiently and communicate clearly across teams.
                 </p>
             </div>
             <div class="exp-item exp-item-border hidden2">
                 <div class="item-top"><img class="main-pic2" src="images/MP_Logo.png" alt="mpasd logo"></div>
-                <p class="none">.</p>
                 <h3>Company</h3>
                 <p class="textcenter">Mount Pleasant Area School District</p>
                 <h3>Role</h3>
                 <p class="textcenter">Assistant to the IT Department</p>
                 <h3>Tenure</h3>
-                <p>June 2022 - August 2023</p>
-                <p class="none">.</p>
+                <p class="textcenter">June 2022 - August 2023</p>
                 <p>
-                    As an Assistant to the IT Department, I played a crucial role in integrating new technology, significantly enhancing the digital learning environment. My responsibilities included meticulously verifying system updates, assessing device damages, and effectively managing the billing process related to user-caused damage. My hands-on experience in this role honed my skills in understanding warranty terms and differentiating various types of technical issues.
+                    As an IT Department Assistant, I supported device deployment, system updates, and technical troubleshooting across a district-wide environment. My responsibilities included diagnosing hardware issues, verifying software and security updates, and assisting with warranty-related assessments and user-caused damage cases. This experience helped me build a strong foundation in technical support, device management, and practical problem-solving.
                 </p>
             </div>
             <div class="exp-item hidden2">
                 <div class="item-top"><img class="main-pic2" src="images/geek_squad.png" alt="geek squad logo"></div>
-                <p class="none">.</p>
                 <h3>Company</h3>
-                <p>Best Buy</p>
+                <p class="textcenter">Best Buy</p>
                 <h3>Role</h3>
-                <p>Geek Squad Agent</p>
+                <p class="textcenter">Geek Squad Agent</p>
                 <h3>Tenure</h3>
-                <p>October 2021 - January 2022</p>
-                <p class="none">.</p>
+                <p class="textcenter">October 2021 - January 2022</p>
                 <p>
-                    As a Geek Squad Agent, I excelled in diagnosing a broad spectrum of technical issues across diverse electronic devices. My role involved managing customer appointments, overseeing the distribution of devices, and providing in-depth guidance and support to clients. My proactive approach ensured seamless repair scheduling processes and elevated customer satisfaction.
+                    As a Geek Squad Agent, I diagnosed and addressed hardware and software issues across a wide range of consumer devices while guiding customers through technical problems in a clear and professional way. I also managed service appointments and repair intake processes, which strengthened my organizational skills and ability to work effectively in a fast-paced support environment. The role helped me further develop customer communication, troubleshooting, and hands-on technical support experience.
                 </p>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+
+        <section id="Projects" class="picture projects-bg">
+            <div class="titlecard hidden1">Projects</div>
+        </section>
+        <section class="projects-container">
+            <div class="proj-item proj-item-border hidden2">
+                <h2 class="proj-title">Smith's Golf Grips</h2>
+                <p class="none">.</p>
+                <div class="carousel" id="carousel-smiths">
+                    <button class="carousel-btn" onclick="prevSlide('carousel-smiths')">&#10094;</button>
+                    <img class="carousel-img" src="" alt="Smith's Golf Grips screenshot">
+                    <button class="carousel-btn" onclick="nextSlide('carousel-smiths')">&#10095;</button>
+                </div>
+                <div class="carousel-dots" id="dots-carousel-smiths"></div>
+                <p class="none">.</p>
+                <h3>Description</h3>
+                <p>Smith’s Golf Grips is a full-stack business website built for a golf club regripping service, 
+                    designed to showcase services, pricing, and brand identity while giving customers a clear way 
+                    to learn about the business and place inquiries online. The project is organized with separate 
+                    folders for admin functionality, styling, JavaScript, images, and supporting pages, which reflects 
+                    a more structured build than a simple static landing page. The repository also includes PHP files 
+                    and a SQL schema, showing that the site was built with backend and database support in mind rather 
+                    than serving only front-end content. GitHub lists the project as primarily JavaScript, with additional 
+                    PHP, CSS, and HTML, highlighting a multi-technology stack and a more complete web development workflow. 
+                    Overall, the project demonstrates my ability to build a polished small-business website while working across 
+                    front-end design, site structure, and backend-oriented functionality.
+                </p>
+                <p class="none">.</p>
+                <div class="proj-links">
+                    <a class="proj-link-btn" href="https://smithsgrips.golf/" target="_blank">Live Site</a>
+                    <a class="proj-link-btn" href="https://github.com/SophisticatedDoggo/GolfSite" target="_blank">GitHub</a>
+                </div>
+            </div>
+            <div class="proj-item hidden2">
+                <h2 class="proj-title">Rosewater Grill</h2>
+                <p class="none">.</p>
+                <div class="carousel" id="carousel-rosewater">
+                    <button class="carousel-btn" onclick="prevSlide('carousel-rosewater')">&#10094;</button>
+                    <img class="carousel-img" src="" alt="Rosewater Grill screenshot">
+                    <button class="carousel-btn" onclick="nextSlide('carousel-rosewater')">&#10095;</button>
+                </div>
+                <div class="carousel-dots" id="dots-carousel-rosewater"></div>
+                <p class="none">.</p>
+                <h3>Description</h3>
+                <p>Rosewater Grill is a full-stack restaurant website project developed as part of a collaborative 
+                    team environment using HTML, CSS, JavaScript, PHP, and MySQL. The project was designed to support 
+                    both the customer-facing side of a restaurant website and the functional side of online ordering, 
+                    with features tied to menu presentation, ordering workflows, payment processing, and database integration. 
+                    Working on this project gave me experience contributing to shared codebases through Git and GitHub, troubleshooting 
+                    backend and frontend issues, and helping connect interface design with real application logic. It also strengthened 
+                    my understanding of team-based development, version control, and how different parts of a web application must work 
+                    together to create a smooth user experience. Overall, the project reflects both my technical development skills 
+                    and my ability to collaborate effectively on a more complex web-based system.
+                </p>
+                <p class="none">.</p>
+                <div class="proj-links">
+                    <span class="proj-private-badge">&#128274; Private Repository</span>
+                </div>
             </div>
         </section>
 
@@ -186,15 +280,18 @@
         </section>
     </main>
 
+    <button id="scrollTopBtn" class="scroll-top-btn" title="Back to top">&#8679;</button>
+
     <!-- Footer Section -->
 
     <footer>
         <section class="footer-container">
-             <a class="footlink" href="https://www.linkedin.com/in/noahlawrence07"><img src="images/linkedin.png" alt="LinkedIn Page"></a>
-             <a class="footlink" href="https://github.com/SophisticatedDoggo"><img src="images/github_icon.png" alt="GitHub Profile"></a>
-             <a class="footlink" href="https://profile.indeed.com/p/noahl-fbsl3bd"><img src="images/indeed.png" alt="Indeed Resume"></a>
-             
-             <p>Website By: Noah Lawrence</p>
+            <div class="footer-links">
+                <a class="footlink" href="https://www.linkedin.com/in/noahlawrence07" title="LinkedIn"><img src="images/linkedin.png" alt="LinkedIn Page"></a>
+                <a class="footlink" href="https://github.com/SophisticatedDoggo" title="GitHub"><img src="images/github_icon.png" alt="GitHub Profile"></a>
+                <a class="footlink" href="https://profile.indeed.com/p/noahl-fbsl3bd" title="Indeed"><img src="images/indeed.png" alt="Indeed Resume"></a>
+            </div>
+            <p class="footer-credit">Built by Noah Lawrence</p>
         </section>
     </footer>
 </body>
